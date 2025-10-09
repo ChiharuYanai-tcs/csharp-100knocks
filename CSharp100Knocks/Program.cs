@@ -1,4 +1,4 @@
-﻿using CSharp100Knocks.Problems01_basic;
+﻿using CSharp100Knocks.Problems02_array;
 
 namespace CSharp100Knocks
 {
@@ -6,7 +6,7 @@ namespace CSharp100Knocks
     {
         static void Main(string[] args)
         {
-            Prob20.Solve("hoge");
+            Prob21.Solve();
         }
     }
 }
