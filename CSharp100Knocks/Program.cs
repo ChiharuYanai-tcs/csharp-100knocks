@@ -6,7 +6,7 @@ namespace CSharp100Knocks
     {
         static void Main(string[] args)
         {
-            Prob27.Solve();
+            Prob29.Solve();
         }
     }
 }
