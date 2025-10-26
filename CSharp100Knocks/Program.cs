@@ -6,8 +6,15 @@ namespace CSharp100Knocks
     {
         static void Main(string[] args)
         {
-            int result = Prob36.Add(3, 4);
-            Console.WriteLine(result);
+            bool ans = Prob38.Squareroot(5.0, out double result);
+            if (ans)
+            {
+                Console.WriteLine(result);
+            }
+            else
+            {
+                Console.WriteLine("Error");
+            }
         }
     }
 }
