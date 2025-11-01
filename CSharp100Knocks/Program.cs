@@ -6,8 +6,7 @@ namespace CSharp100Knocks
     {
         static void Main(string[] args)
         {
-            int[] num = { 9, 3, 5, -1, 7 };
-            Console.WriteLine(Prob43.Sum_n(num));
+            Prob45.Solve();
         }
     }
 }
