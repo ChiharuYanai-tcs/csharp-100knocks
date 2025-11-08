@@ -6,7 +6,12 @@ namespace CSharp100Knocks
     {
         static void Main(string[] args)
         {
-            Prob48.Solve();
+            int x = 3, y = 8;
+            Prob50.TrySwapByValue(x, y);
+            Console.WriteLine($"(x, y) = ({x}, {y})");
+
+            Prob50.Swap(ref x, ref y);
+            Console.WriteLine($"(x, y) = ({x}, {y})");
         }
     }
 }
