@@ -1,4 +1,4 @@
-﻿using CSharp100Knocks.Problems03_method;
+﻿using CSharp100Knocks.Problems04_class;
 
 namespace CSharp100Knocks
 {
@@ -6,12 +6,8 @@ namespace CSharp100Knocks
     {
         static void Main(string[] args)
         {
-            int x = 3, y = 8;
-            Prob50.TrySwapByValue(x, y);
-            Console.WriteLine($"(x, y) = ({x}, {y})");
-
-            Prob50.Swap(ref x, ref y);
-            Console.WriteLine($"(x, y) = ({x}, {y})");
+            var p1 = new Prob52("Tom", 25);
+            Console.WriteLine(p1.Name + ", " + p1.Age);
         }
     }
 }
