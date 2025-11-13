@@ -6,8 +6,11 @@ namespace CSharp100Knocks
     {
         static void Main(string[] args)
         {
-            var p1 = new Prob52("Tom", 25);
-            Console.WriteLine(p1.Name + ", " + p1.Age);
+            var account = new Prob53();
+            account.Deposit(1000);
+            Console.WriteLine(account.Balance);
+            account.Withdraw(100);
+            Console.WriteLine(account.Balance);
         }
     }
 }
