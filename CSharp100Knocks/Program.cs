@@ -6,7 +6,7 @@ namespace CSharp100Knocks
     {
         static void Main(string[] args)
         {
-            var account = new Prob53();
+            var account = new Prob54();
             account.Deposit(1000);
             Console.WriteLine(account.Balance);
             account.Withdraw(100);

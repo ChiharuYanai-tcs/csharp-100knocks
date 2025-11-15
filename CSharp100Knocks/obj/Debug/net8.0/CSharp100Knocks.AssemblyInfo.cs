@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CSharp100Knocks")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a80165ef889631c32218ca5e82c997227e11065c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8951797cfa82ba930cace97f5cc39fc8225986b4")]
 [assembly: System.Reflection.AssemblyProductAttribute("CSharp100Knocks")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CSharp100Knocks")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
