@@ -6,8 +6,8 @@ namespace CSharp100Knocks
     {
         static void Main(string[] args)
         {
-            var circle = new Prob55(5.0);
-            Console.WriteLine(circle.Area);
+            var p = new Prob56("Tom", 17);
+            Console.WriteLine(p.Name + " " + p.Age);
         }
     }
 }
