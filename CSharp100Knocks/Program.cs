@@ -1,4 +1,5 @@
-﻿using CSharp100Knocks.Problems04_class;
+﻿using System.Security.Cryptography.X509Certificates;
+using CSharp100Knocks.Problems04_class;
 
 namespace CSharp100Knocks
 {
@@ -6,8 +7,7 @@ namespace CSharp100Knocks
     {
         static void Main(string[] args)
         {
-            var p = new Prob56("Tom", 17);
-            Console.WriteLine(p.Name + " " + p.Age);
+            Console.WriteLine(new Prob57 {x = 3, y = 8});
         }
     }
 }
