@@ -8,20 +8,19 @@ namespace CSharp100Knocks
     {
         static void Main(string[] args)
         {
-            var problem = new Problem();
+            var animal = new List<Animal>
+            {
+                new Dog("Pochi"),
+                new Bird("Pico")
+            };
+
+            foreach (var a in animal)
+            {
+                a.Speak();
+                a.Move();
+            }
         }
     }
     
-    class Problem
-    {
-        // private Prob58 car;  // こっちでも Car の override 版が動く
-        private Car car;
-        
-        public Problem()
-        {
-            car = new Car("Tokyo");
-            car.Accelerate();
-            car.ShowInfo();
-        }
-    }
+    
 }
