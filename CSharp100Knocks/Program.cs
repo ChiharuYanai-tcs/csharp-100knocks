@@ -8,17 +8,11 @@ namespace CSharp100Knocks
     {
         static void Main(string[] args)
         {
-            var animal = new List<Animal>
-            {
-                new Dog("Pochi"),
-                new Bird("Pico")
-            };
+            Prob60.IPayment payment = new Prob60.CreditCardPayment();
+            payment.Pay(270);
 
-            foreach (var a in animal)
-            {
-                a.Speak();
-                a.Move();
-            }
+            Prob60.IPayment payment2 = new Prob60.CashPayment();
+            payment2.Pay(5000);
         }
     }
     
