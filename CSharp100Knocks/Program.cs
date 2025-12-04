@@ -8,11 +8,11 @@ namespace CSharp100Knocks
     {
         static void Main(string[] args)
         {
-            Prob60.IPayment payment = new Prob60.CreditCardPayment();
-            payment.Pay(270);
+            Prob61.MultiMediaPlayer player = new Prob61.MultiMediaPlayer();
+            ((Prob61.IGame)player).Play();
 
-            Prob60.IPayment payment2 = new Prob60.CashPayment();
-            payment2.Pay(5000);
+            Prob61.IMusic musicPlayer = player;
+            musicPlayer.Play();
         }
     }
     
