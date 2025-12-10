@@ -8,11 +8,9 @@ namespace CSharp100Knocks
     {
         static void Main(string[] args)
         {
-            Prob61.MultiMediaPlayer player = new Prob61.MultiMediaPlayer();
-            ((Prob61.IGame)player).Play();
-
-            Prob61.IMusic musicPlayer = player;
-            musicPlayer.Play();
+            new Prob63();
+            new Prob63();
+            Console.WriteLine(Prob63.InstanceCount);
         }
     }
     
