@@ -8,9 +8,9 @@ namespace CSharp100Knocks
     {
         static void Main(string[] args)
         {
-            new Prob63();
-            new Prob63();
-            Console.WriteLine(Prob63.InstanceCount);
+            Console.WriteLine($"Hoge: {Prob64.Hoge}");
+            var p64 = new Prob64(100);
+            Console.WriteLine($"Foge(p64): {p64.Foge}"); 
         }
     }
     
