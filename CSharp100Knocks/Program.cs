@@ -8,9 +8,8 @@ namespace CSharp100Knocks
     {
         static void Main(string[] args)
         {
-            Console.WriteLine($"Hoge: {Prob64.Hoge}");
-            var p64 = new Prob64(100);
-            Console.WriteLine($"Foge(p64): {p64.Foge}"); 
+            var alice = new Person("Alice", 30) {Id = System.Guid.NewGuid()};
+            Console.WriteLine(alice);
         }
     }
     
